@@ -1,0 +1,52 @@
+.Gestion{
+    background: #fff3de;
+}
+
+#zoom{
+    background-image: url(../../../public/Zoom-Logo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+#whatsapp{
+    background-image: url(../../../public/png-clipart-green-call-icon-whatsapp-logo-whatsapp-text-trademark.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#appli{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+#carre{
+    padding: 10px;
+    border: 3px solid green;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#kami{
+    background-image: url('../../../public/IMG_3778.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 140px 140px 140px 140px;
+ background-position: center;
+}
+
+#equipe{
+    background-color:#2b2100 ;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}

@@ -1,0 +1,35 @@
+
+#nav{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: #ff4a9c;
+    height:50px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.button-navbar {
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #ff4a9c;
+    border-color: #ff4a9c;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#image{
+    background-image: url(../../../public/Screenshot\ 2024-05-14\ at\ 17.21.41.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: cover;
+    padding: 60px;
+    background-size:cover;
+}

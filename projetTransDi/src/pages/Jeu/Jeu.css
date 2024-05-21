@@ -1,0 +1,42 @@
+#para{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa5b4;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    color: white;
+}
+
+
+
+#objectifs{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa5b4;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    color: white;
+}
+
+#jeu{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Jeu{
+    background-color: #fff3de
+}

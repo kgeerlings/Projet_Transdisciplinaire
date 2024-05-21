@@ -1,0 +1,142 @@
+#presentation, #para2, #align{
+    height: 100%;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#texte{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa5b4;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+#para1{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+#para2,#align{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#sub3, #dys {
+    flex: 1; /* Permet aux éléments de s'étendre pour occuper l'espace disponible */
+    margin: 0; /* Réinitialise les marges */
+    padding: 0; /* Réinitialise les paddings */
+    text-align: center; /* Centre le texte horizontalement */
+}
+#sub, #dys {
+    flex: 1; /* Permet aux éléments de s'étendre pour occuper l'espace disponible */
+    margin: 0; /* Réinitialise les marges */
+    padding: 0; /* Réinitialise les paddings */
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+#informations{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+#texte2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffa5b4;
+    border-color: 3px solid #ffa5b4;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    color: white;
+    overflow: hidden;
+  }
+
+#sub3{
+    width: 50%;
+    height: 35%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    background-color: #2b2100;
+    position: relative;
+    border-radius:  10px 10px 150px 10px;
+    text-overflow: 0px ;
+    color:white;
+    font-size: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: normal; 
+    word-wrap: break-word;
+  }
+
+#sub{
+    width: 50%;
+    height: 35%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    background-color: #2b2100;
+    position: relative;
+    border-radius:  10px 10px 150px 10px;
+    text-overflow: 0px ;
+    color:white;
+    font-size: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: normal; 
+    word-wrap: break-word;
+  }
+
+#liste1{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+.Presentation{
+  background-color: #fff3de;
+}
+
+#dys{
+    font-size: 30px;
+    color: #2b2100;
+     text-shadow: 
+        -10px -10px 0 #ff4a9c,  
+        10px -10px 0 #ff4a9c,
+        -10px 10px 0 #ff4a9c,
+        10px 10px 0 #ff4a9c; 
+        color: white;
+}

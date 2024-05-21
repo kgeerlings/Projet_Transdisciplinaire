@@ -1,0 +1,21 @@
+.bouton-navlink:hover{
+    background-color: #ff4a9c;
+    border-bottom: 3px solid white;
+    width: 150px;
+    height: 30px;
+    color: white; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bouton-navlink {
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #ff4a9c;
+    border-color: #ff4a9c;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}

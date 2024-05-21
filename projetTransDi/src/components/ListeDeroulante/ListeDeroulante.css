@@ -1,0 +1,49 @@
+.mainmenubtn {
+    cursor: pointer;
+    display: flex;    
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #ff4a9c;
+    border-color: #ff4a9c;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.mainmenubtn:hover {
+    background-color: #ff4a9c;
+    border-bottom: 3px solid white;
+    margin-bottom: 0;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #ff4a9c;
+    min-width: 200px;
+    position: absolute;
+    z-index: 1; 
+    top: 100%;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.mainmenubtn:hover + .dropdown-child,
+.dropdown-child:hover {
+    display: flex; /* Afficher le contenu au survol du bouton principal ou du contenu child */
+    flex-direction: column;
+}
