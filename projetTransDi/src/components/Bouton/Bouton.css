@@ -12,7 +12,7 @@
 .bouton-navlink {
     width: 10vw; /* Utilisation de vw pour la largeur */
     min-width: 9.375rem; /* 150px converti en rem */
-    height: 2.5rem; /* 30px converti en rem */
+    height: 1.5rem; /* 30px converti en rem */
     margin-top: 1rem; /* Utilisation de rem pour la marge */
     background-color: #ff4a9c;
     border-color: #ff4a9c;
