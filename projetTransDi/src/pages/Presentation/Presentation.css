@@ -1,142 +1,145 @@
-#presentation, #para2, #align{
-    height: 100%;
-    width: 100%;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
+#presentation, #para2, #align {
+  height: 100%;
+  width: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-#texte{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffa5b4;
-    margin-top: 20px;
-    border-radius: 10px;
-    width: 600px;
+#texte {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffa5b4;
+  margin-top: 2rem; /* Utilisation de rem pour la marge */
+  border-radius: 0.625rem; /* 10px converti en rem */
+  width: 90%; /* Utilisation de pourcentage pour la largeur */
+  max-width: 37.5rem; /* 600px converti en rem */
 }
 
-#para1{
-  margin-left: 20px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+#para1 {
+  margin-left: 1.25rem; /* 20px converti en rem */
+  margin-right: 0.625rem; /* 10px converti en rem */
+  margin-bottom: 0.625rem; /* 10px converti en rem */
   color: white;
-  font-size: 15px;
+  font-size: 1rem; /* 15px converti en rem */
 }
 
-#para2,#align{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+#para2, #align {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #sub3, #dys {
-    flex: 1; /* Permet aux éléments de s'étendre pour occuper l'espace disponible */
-    margin: 0; /* Réinitialise les marges */
-    padding: 0; /* Réinitialise les paddings */
-    text-align: center; /* Centre le texte horizontalement */
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
+
 #sub, #dys {
-    flex: 1; /* Permet aux éléments de s'étendre pour occuper l'espace disponible */
-    margin: 0; /* Réinitialise les marges */
-    padding: 0; /* Réinitialise les paddings */
-    text-align: center; /* Centre le texte horizontalement */
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-#informations{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-#texte2{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #ffa5b4;
-    border-color: 3px solid #ffa5b4;
-    margin-top: 20px;
-    border-radius: 10px;
-    width: 600px;
-    color: white;
-    overflow: hidden;
-  }
+#informations {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-#sub3{
-    width: 50%;
-    height: 35%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2px;
-    background-color: #2b2100;
-    position: relative;
-    border-radius:  10px 10px 150px 10px;
-    text-overflow: 0px ;
-    color:white;
-    font-size: 20px;
-    margin-right: 5px;
-    overflow: hidden;
-    white-space: normal; 
-    word-wrap: break-word;
-  }
+#texte2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffa5b4;
+  border-color: 3px solid #ffa5b4;
+  margin-top: 2rem; /* Utilisation de rem pour la marge */
+  border-radius: 0.625rem; /* 10px converti en rem */
+  width: 90%; /* Utilisation de pourcentage pour la largeur */
+  max-width: 37.5rem; /* 600px converti en rem */
+  color: white;
+  overflow: hidden;
+}
 
-#sub{
-    width: 50%;
-    height: 35%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2px;
-    background-color: #2b2100;
-    position: relative;
-    border-radius:  10px 10px 150px 10px;
-    text-overflow: 0px ;
-    color:white;
-    font-size: 20px;
-    margin-right: 5px;
-    overflow: hidden;
-    white-space: normal; 
-    word-wrap: break-word;
-  }
+#sub3 {
+  width: 50%;
+  height: 35%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.125rem; /* 2px converti en rem */
+  background-color: #2b2100;
+  position: relative;
+  border-radius: 0.625rem 0.625rem 9.375rem 0.625rem; /* 10px et 150px convertis en rem */
+  text-overflow: ellipsis;
+  color: white;
+  font-size: 1.25rem; /* 20px converti en rem */
+  margin-right: 0.3125rem; /* 5px converti en rem */
+  overflow: hidden;
+  white-space: normal; 
+  word-wrap: break-word;
+}
 
-#liste1{
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 15px;
-  }
+#sub {
+  width: 50%;
+  height: 35%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.125rem; /* 2px converti en rem */
+  background-color: #2b2100;
+  position: relative;
+  border-radius: 0.625rem 0.625rem 9.375rem 0.625rem; /* 10px et 150px convertis en rem */
+  text-overflow: ellipsis;
+  color: white;
+  font-size: 1.25rem; /* 20px converti en rem */
+  margin-right: 0.3125rem; /* 5px converti en rem */
+  overflow: hidden;
+  white-space: normal; 
+  word-wrap: break-word;
+}
 
-.Presentation{
+#liste1 {
+  margin-left: 1.25rem; /* 20px converti en rem */
+  margin-right: 0.625rem; /* 10px converti en rem */
+  margin-bottom: 0.625rem; /* 10px converti en rem */
+  color: white;
+  font-size: 1rem; /* 15px converti en rem */
+}
+
+.Presentation {
   background-color: #fff3de;
 }
 
-#dys{
-    font-size: 30px;
-    color: #2b2100;
-     text-shadow: 
-        -10px -10px 0 #ff4a9c,  
-        10px -10px 0 #ff4a9c,
-        -10px 10px 0 #ff4a9c,
-        10px 10px 0 #ff4a9c; 
-        color: white;
+#dys {
+  font-size: 2rem; /* 30px converti en rem */
+  color: #2b2100;
+  text-shadow: 
+      -0.625rem -0.625rem 0 #ff4a9c,  /* 10px converti en rem */
+      0.625rem -0.625rem 0 #ff4a9c,  /* 10px converti en rem */
+      -0.625rem 0.625rem 0 #ff4a9c,  /* 10px converti en rem */
+      0.625rem 0.625rem 0 #ff4a9c;  /* 10px converti en rem */
+  color: white;
 }

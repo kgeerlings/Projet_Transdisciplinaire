@@ -1,35 +1,34 @@
 
-#nav{
+#nav {
     justify-content: space-around;
     display: flex;
     align-items: center;
     background-color: #ff4a9c;
-    height:50px;
+    height: 5vh; /* Utilisation de vh pour la hauteur */
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 1rem; /* Utilisation de rem pour la marge */
     color: white;
 }
 
-
 .button-navbar {
-    width: 150px;
-    height: 30px;
-    margin-top: 15px;
+    width: 10vw; /* Utilisation de vw pour la largeur */
+    min-width: 9.375rem; /* 150px converti en rem */
+    height: 2.5rem; /* 30px converti en rem */
+    margin-top: 1rem; /* Utilisation de rem pour la marge */
     background-color: #ff4a9c;
     border-color: #ff4a9c;
     font-weight: bold;
     border: none;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 1rem; /* Utilisation de rem pour la marge */
 }
 
-#image{
+#image {
     background-image: url(../../../public/Screenshot\ 2024-05-14\ at\ 17.21.41.png);
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center; /* Simplification */
     background-repeat: no-repeat;
-    height: 100%;
-    width: cover;
-    padding: 60px;
-    background-size:cover;
+    height: 30vh; /* Utilisation de vh pour la hauteur */
+    width: 100%; /* Utilisation de % pour la largeur */
+    padding: 3.75rem; /* 60px converti en rem */
+    background-size: cover;
 }
