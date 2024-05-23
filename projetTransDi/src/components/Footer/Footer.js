@@ -6,12 +6,13 @@ function Footer(props) {
         <div id="footer">
             <div id="contact">
                 <div>
-                    <h4> Contact: </h4>
+                    <h4> 2023-2024 </h4>
                 </div>
                 <div id="reseaux">
-                    <p> Mail:</p>
-                    <p> Téléphone:</p>
-                    <p> Instagram:</p>
+                    <p> Gregoire Arrabie-Aures</p>
+                    <p> Kamalakorn Geerlings</p>
+                    <p> Zachari Arnaud</p>
+                    <p> Promo 2026</p>
                 </div>
             </div>
             <div id="autre">

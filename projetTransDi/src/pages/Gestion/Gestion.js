@@ -17,9 +17,22 @@ function Gestion({ setPage }) {
                             <h2> Notre équipe</h2>
                         </div>
                         <div id="photos">
-                            <div id="greg"></div>
-                            <div id="zach"></div>
-                            <div id="kami"></div>
+                            <div className='greg'>
+                                <div id="greg"></div>
+                                <h5> Grégoire Arrabie-Aures</h5>
+                                <p> Pôle développement</p>
+                            </div>
+                            <div className='zach'>
+                                <div id="zach"></div>
+                                <h5>Zachari Arnaud</h5>
+                                <p>Pôle développement</p>
+                            </div>
+                            <div className='kami'>
+                                <div id="kami"></div>
+                                <h5>Kamalakorn Geerlings</h5>
+                                <p>Pôle communication & développement</p>
+                            </div>
+
                         </div>
                     </div>
                     <div id="organisation">

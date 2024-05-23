@@ -44,9 +44,37 @@
  background-position: center;
 }
 
+#greg{
+    background-image: url('../../../public/IMG_20231127_140318.jpg');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 140px 140px 140px 140px;
+ background-position: center;
+}
+
 #equipe{
     background-color:#2b2100 ;
     padding: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 340px;
+    text-align: center;
+}
+
+#photos{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#orga{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kami,.greg,.zach{
+    color:white;
 }
