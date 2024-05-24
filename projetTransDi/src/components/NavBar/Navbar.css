@@ -1,26 +1,14 @@
 
 #nav {
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
-    background-color: #ff4a9c;
-    height: 5vh; /* Utilisation de vh pour la hauteur */
+    flex-wrap: wrap;
+    background-color: #088b97;
+    height: 12vh; /* Utilisation de vh pour la hauteur */
     width: 100%;
     margin-bottom: 1rem; /* Utilisation de rem pour la marge */
     color: white;
-}
-
-.button-navbar {
-    width: 10vw; /* Utilisation de vw pour la largeur */
-    min-width: 9.375rem; /* 150px converti en rem */
-    height: 2.5rem; /* 30px converti en rem */
-    margin-top: 1rem; /* Utilisation de rem pour la marge */
-    background-color: #ff4a9c;
-    border-color: #ff4a9c;
-    font-weight: bold;
-    border: none;
-    color: white;
-    margin-bottom: 1rem; /* Utilisation de rem pour la marge */
 }
 
 #image {

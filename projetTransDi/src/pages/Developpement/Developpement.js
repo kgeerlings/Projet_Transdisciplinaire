@@ -29,8 +29,8 @@ function Developpement({ setPage }) {
       <Navbar setPage={setPage} />
       <div id="dev">
         <div class="Phase">
-          <div class="titre">Phase de développement 1</div>
-          <h3>Compréhension de la structure</h3>{" "}
+          <Subtitle nom="Phase de développement 1" />
+          <h3 id="petit">Compréhension de la structure</h3>{" "}
           <div class="Para">
             Il est évident que l'un des enjeu les plus important lorsqu'il
             s'agit de reprendre un projet informatique est de comprendre la
@@ -46,7 +46,7 @@ function Developpement({ setPage }) {
           de code source analysé
         </div>
         <div class="Phase">
-          <div class="titre">Phase de développement 2</div>
+          <Subtitle nom="Phase de développement 2" />
           <h3>Création de l'éditeur de jeu</h3>{" "}
           <div class="Para">
             {" "}

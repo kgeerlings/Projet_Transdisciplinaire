@@ -1,9 +1,24 @@
-h2{
+.Subtitle{
     color:white;
-    font-size: 30px;
     text-shadow: 
     -0.1rem -0.1rem 0 black,  /* 10px converti en rem */
     0.1rem -0.1rem 0 black,  /* 10px converti en rem */
     -0.1rem 0.1rem 0 black,  /* 10px converti en rem */
     0.1rem 0.1rem 0 black;  /* 10px converti en rem */
+    font-size: 1.5vw;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #033135;
+    margin-top: 0.5vw;
+    border-radius: 5rem 1rem 5rem 1rem;
+    width: auto;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: normal; 
+    word-wrap: break-word;
+    padding: 15px;
+    height: 1.5rem;
 }

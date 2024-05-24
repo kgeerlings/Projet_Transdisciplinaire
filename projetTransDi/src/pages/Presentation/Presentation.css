@@ -1,8 +1,6 @@
 #presentation, #para2, #align {
   height: 100%;
   width: 100%;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
   font-style: normal;
   align-items: center;
   justify-content: center;
@@ -13,18 +11,17 @@
 }
 
 #texte {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
   font-style: normal;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffa5b4;
+  background-color: white;
   margin-top: 2rem; /* Utilisation de rem pour la marge */
   border-radius: 0.625rem; /* 10px converti en rem */
   width: 90%; /* Utilisation de pourcentage pour la largeur */
   max-width: 37.5rem; /* 600px converti en rem */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 #para1 {
@@ -33,6 +30,7 @@
   margin-bottom: 0.625rem; /* 10px converti en rem */
   color: white;
   font-size: 1rem; /* 15px converti en rem */
+  padding: 2vw;
 }
 
 #para2, #align {
@@ -64,61 +62,50 @@
 }
 
 #texte2 {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
   font-style: normal;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f8d0d7;
-  border-color: 3px solid #ffa5b4;
+  background-color: white;
+  border-color: 3px solid white;
   margin-top: 2rem; /* Utilisation de rem pour la marge */
   border-radius: 0.625rem; /* 10px converti en rem */
-  width: 90%; /* Utilisation de pourcentage pour la largeur */
+  width: 80%; /* Utilisation de pourcentage pour la largeur */
   max-width: 37.5rem; /* 600px converti en rem */
   color: white;
   overflow: hidden;
+  padding: 0.625rem;
+  color: #033135;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-#sub3 {
+#sub, #sub3 {
   width: 50%;
-  height: 35%;
+  height: 20%;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding: 0.125rem; /* 2px converti en rem */
-  background-color: #2b2100;
+  background-color: #033135;
   position: relative;
   border-radius: 0.625rem 0.625rem 9.375rem 0.625rem; /* 10px et 150px convertis en rem */
   text-overflow: ellipsis;
-  color: white;
-  font-size: 1.25rem; /* 20px converti en rem */
+  color: #033135;
   margin-right: 0.3125rem; /* 5px converti en rem */
   overflow: hidden;
   white-space: normal; 
   word-wrap: break-word;
-}
-
-#sub {
-  width: 50%;
-  height: 35%;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.125rem; /* 2px converti en rem */
-  background-color: #2b2100;
-  position: relative;
-  border-radius: 0.625rem 0.625rem 9.375rem 0.625rem; /* 10px et 150px convertis en rem */
-  text-overflow: ellipsis;
-  color: white;
-  font-size: 1.25rem; /* 20px converti en rem */
-  margin-right: 0.3125rem; /* 5px converti en rem */
-  overflow: hidden;
-  white-space: normal; 
-  word-wrap: break-word;
+  color:white;
+  text-shadow: 
+  -0.1rem -0.1rem 0 black,  /* 10px converti en rem */
+  0.1rem -0.1rem 0 black,  /* 10px converti en rem */
+  -0.1rem 0.1rem 0 black,  /* 10px converti en rem */
+  0.1rem 0.1rem 0 black;  /* 10px converti en rem */
+  font-size: 4vw;
+  font-style: normal;
+  margin-bottom: 0;
 }
 
 #liste1 {
@@ -127,21 +114,16 @@
   margin-bottom: 0.625rem; /* 10px converti en rem */
   color: white;
   font-size: 1rem; /* 15px converti en rem */
+  padding: 2vw;
 }
 
 .Presentation {
-  background-color:    #fff3de
+  background-color:    #d3f9fd
   ;
 }
 
 #dys {
   font-size: 2rem; /* 30px converti en rem */
-  color: #2b2100;
-  text-shadow: 
-      -0.625rem -0.625rem 0 #ff4a9c,  /* 10px converti en rem */
-      0.625rem -0.625rem 0 #ff4a9c,  /* 10px converti en rem */
-      -0.625rem 0.625rem 0 #ff4a9c,  /* 10px converti en rem */
-      0.625rem 0.625rem 0 #ff4a9c;  /* 10px converti en rem */
-  color: white;
+  color: #033135;
 }
 

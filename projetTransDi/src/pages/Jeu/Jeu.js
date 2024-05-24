@@ -11,7 +11,7 @@ function Jeu({ setPage }) {
       <Navbar setPage={setPage} />
       <div id="dev">
         <div class="Phase">
-          <div class="titre">Le projet Ile aux fractions</div>
+          <Subtitle nom="Le projet Ile aux fractions" />
           <div class="Para">
             <p>
               Ce projet, connu sous le nom de "ile aux fractions" notamment, est
@@ -22,15 +22,14 @@ function Jeu({ setPage }) {
           </div>
         </div>
         <div class="Phase">
-          <div class="titre">Les travaux réalisées en amont</div>
+          <Subtitle nom="Les travaux réalisées en amont" />
           <h3> La phase d'étude</h3>
 
           <div class="Para">
-            {" "}
-            Pour la phase d'étude, nous pensions que ce serait intéressant de
-            tester le jeu sur des enfants "normaux" mais aussi sur des enfants
-            atteint de dycaculie. Notre objectif pour la phase d'étude était
-            donc:
+            <p>Pour la phase d'étude, nous pensions que ce serait intéressant de
+              tester le jeu sur des enfants "normaux" mais aussi sur des enfants
+              atteint de dycaculie. Notre objectif pour la phase d'étude était
+              donc: </p>
             <ul>
               <li>Tester le jeu sur des enfants de profils divers</li>
               <li>Mieux comprendre ce qu'est la dyscalculie</li>

@@ -1,5 +1,5 @@
 .Gestion{
-    background: #fff3de;
+    background: #d3f9fd;
 }
 
 #zoom{
@@ -27,7 +27,7 @@
 
 #carre{
     padding: 10px;
-    border: 3px solid green;
+    border: 3px solid #12e0f3;
     width: 200px;
     text-align: center;
     display: flex;
@@ -54,7 +54,7 @@
 }
 
 #equipe{
-    background-color:#2b2100 ;
+    background-color:#033135 ;
     padding: 10px;
     border-radius: 10px;
     width: 340px;
@@ -83,7 +83,7 @@
     padding: 10px;
     background-color: white;
     border-radius: 15px;
-    color: black;
+    color: #033135;
     margin-top: 20px;
-
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }

@@ -1,29 +1,26 @@
 .Phase {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
   font-style: normal;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: white;
   margin-top: 2.39vw;
   border-radius: 10px;
   width: 41.67vw;
-  color: rgb(0, 0, 0);
+  color: #033135;
   padding: 2vw;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 .titre {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
   font-size: 2vw;
   font-style: normal;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #155baa;
+  background-color: #033135;
   margin-top: 1vw;
   border-radius: 10px;
   width: 32vw;
@@ -34,19 +31,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff3de;
 }
 .Para {
   text-indent: 2em;
-  font-family: "Arial", sans-serif;
   font-size: 1vw;
   font-weight: 300;
   line-height: 1.5;
   text-align: justify;
   margin-top: 2vw;
-  color: #333;
+  color: #033135;
 }
-h3 {
-  font-family: "Arial", sans-serif;
-  font-size: 1.5vw;
+
+#dec{
+    background-color: #d3f9fd;
 }
+

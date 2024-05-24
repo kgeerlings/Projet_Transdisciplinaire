@@ -17,7 +17,7 @@ function Presentation({ setPage }) {
                         <div id="presentation">
                             <div id="align">
                                 <div id="sub">
-                                    <Subtitle nom="Qu'est-ce que la" />
+                                    <h4>Qu'est-ce que la </h4><Subtitle nom="" />
                                 </div>
                                 <div id="dys">
                                     <h3>dyscalculie?</h3>
@@ -33,7 +33,7 @@ function Presentation({ setPage }) {
                     <div id="texte2">
                         <div id="para2">
                             <div id="sub3">
-                                <Subtitle nom="Quels sont les difficultés majeures" />
+                                <h4>Quels sont les difficultés majeures </h4><Subtitle nom="" />
                             </div>
                             <div id="dys">
                                 <h3>des enfants dyscalculiques?</h3>

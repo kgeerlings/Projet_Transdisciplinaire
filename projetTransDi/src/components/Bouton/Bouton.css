@@ -1,24 +1,27 @@
 .bouton-navlink:hover {
-    background-color: #ff4a9c;
+    background-color: #088b97;
     border-bottom: 0.1875rem solid white; /* 3px converti en rem */
-    width: 10vw; /* Utilisation de vw pour la largeur */
+    width: 15vw; /* Utilisation de vw pour la largeur */
     min-width: 9.375rem; /* 150px converti en rem */
-    height: 1.5rem; /* 30px converti en rem */
+    height: 3rem; /* 30px converti en rem */
     color: white; 
     margin-top: 1rem; /* Utilisation de rem pour la marge */
     margin-bottom: 1rem; /* Utilisation de rem pour la marge */
 }
 
 .bouton-navlink {
-    width: 10vw; /* Utilisation de vw pour la largeur */
+    width: 15vw; /* Utilisation de vw pour la largeur */
     min-width: 9.375rem; /* 150px converti en rem */
-    height: 1.5rem; /* 30px converti en rem */
-    margin-top: 1.5rem; /* Utilisation de rem pour la marge */
-    background-color: #ff4a9c;
-    border-color: #ff4a9c;
+    height: 3rem; /* 30px converti en rem */
+    margin-top: 1rem; /* Utilisation de rem pour la marge */
+    background-color: #088b97;
+    border-color: #088b97;
     font-weight: bold;
+    font-size: 15px;
     border: none;
     color: white;
+    cursor: pointer;
     margin-bottom: 1rem; /* Utilisation de rem pour la marge */
+    border-bottom: 0.1875rem solid #088b97;
 }
 
