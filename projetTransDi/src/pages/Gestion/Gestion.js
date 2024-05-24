@@ -40,7 +40,7 @@ function Gestion({ setPage }) {
                             <Subtitle nom="Notre organisation" />
                         </div>
                         <div id="com">
-                            <p>Réunions hebdomadaires, mise au point, communication whatsapp, visio whatsapp, visio cliente zoom </p>
+                            <p>Pour les réunions, nous nous sommes mis d'accord sur une réunion par semaine entre équipe, une réunion par mois avec le client et avec notre tuteur </p>
                             <div id="carre">
                                 <h4> Moyens de communication utlisés</h4>
                                 <div id="appli">

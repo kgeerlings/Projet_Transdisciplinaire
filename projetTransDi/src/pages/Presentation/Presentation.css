@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ffa5b4;
+  background-color: #f8d0d7;
   border-color: 3px solid #ffa5b4;
   margin-top: 2rem; /* Utilisation de rem pour la marge */
   border-radius: 0.625rem; /* 10px converti en rem */
@@ -130,7 +130,8 @@
 }
 
 .Presentation {
-  background-color: #fff3de;
+  background-color:    #fff3de
+  ;
 }
 
 #dys {

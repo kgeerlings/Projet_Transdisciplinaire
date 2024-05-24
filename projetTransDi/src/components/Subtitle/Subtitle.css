@@ -1,4 +1,9 @@
 h2{
     color:white;
     font-size: 30px;
+    text-shadow: 
+    -0.1rem -0.1rem 0 black,  /* 10px converti en rem */
+    0.1rem -0.1rem 0 black,  /* 10px converti en rem */
+    -0.1rem 0.1rem 0 black,  /* 10px converti en rem */
+    0.1rem 0.1rem 0 black;  /* 10px converti en rem */
 }
