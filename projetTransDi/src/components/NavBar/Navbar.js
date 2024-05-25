@@ -9,10 +9,10 @@ import '../../fonts.css';
 function Navbar(props) {
     return (
         <div className="Navbar">
-            <div id="image">
+            <div class="image">
                 <h1> Jeu Dysc</h1>
             </div>
-            <div id="nav">
+            <div class="nav">
                 <List />
                 <Bouton class="titre" nom="Attendus de la cliente" link="/Attendus" />
                 <Travaux />

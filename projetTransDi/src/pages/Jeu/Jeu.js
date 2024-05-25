@@ -14,7 +14,7 @@ function Jeu({ setPage }) {
           <Subtitle nom="Le projet Ile aux fractions" />
           <div class="Para">
             <p>
-              Ce projet, connu sous le nom de "ile aux fractions" notamment, est
+              Ce projet, connu sous le nom de "Ile aux fractions" notamment, est
               un projet qui a été développé sur plusieurs années. Depuis 2020,
               des étudiants de l'ENSC on participé à l'amélioration de ce jeu.
               Au cours des années, de nouvelles fonctionnalités ont été ajoutés.

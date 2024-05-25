@@ -1,4 +1,4 @@
-#footer{
+.footer{
     background : #72edf8;
     margin-top: 100px;
     position: relative;
@@ -15,17 +15,13 @@
     align-items: center;
     color: #033135;
 }
-h4{
-    margin-left: 30px;
-    margin-top: 10px;
-}
 
-#reseaux{
+.reseaux{
     margin-left: 30px;
     font-size: small;
 }
 
-#autre{
+.autre{
     justify-content: flex-end;
     display: flex;
     flex-direction: column;

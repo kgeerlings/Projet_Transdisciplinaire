@@ -11,48 +11,48 @@ function Gestion({ setPage }) {
         <div className="Gestion">
             <Navbar setPage={setPage} />
             <div className="gdp">
-                <div id="orga">
-                    <div id="equipe">
+                <div class="orga">
+                    <div class="equipe">
                         <div>
-                            <h2> Notre équipe</h2>
+                            <Subtitle nom="Notre équipe" />
                         </div>
-                        <div id="photos">
+                        <div class="photos">
                             <div className='greg'>
-                                <div id="greg"></div>
+                                <div class="greg"></div>
                                 <h5> Grégoire Arrabie-Aures</h5>
                                 <p> Pôle développement</p>
                             </div>
                             <div className='zach'>
-                                <div id="zach"></div>
+                                <div class="zach"></div>
                                 <h5>Zachari Arnaud</h5>
                                 <p>Pôle développement</p>
                             </div>
                             <div className='kami'>
-                                <div id="kami"></div>
+                                <div class="kami"></div>
                                 <h5>Kamalakorn Geerlings</h5>
                                 <p>Pôle communication & développement</p>
                             </div>
 
                         </div>
                     </div>
-                    <div id="organisation">
-                        <div id="para2">
+                    <div class="organisation">
+                        <div class="subOrg">
                             <Subtitle nom="Notre organisation" />
                         </div>
-                        <div id="com">
+                        <div class="com">
                             <p>Pour les réunions, nous nous sommes mis d'accord sur une réunion par semaine entre équipe, une réunion par mois avec le client et avec notre tuteur </p>
-                            <div id="carre">
+                            <div class="carre">
                                 <h4> Moyens de communication utlisés</h4>
-                                <div id="appli">
-                                    <div id="zoom"></div>
-                                    <div id="whatsapp"></div>
+                                <div class="appli">
+                                    <div class="zoom"></div>
+                                    <div class="whatsapp"></div>
                                 </div>
                             </div>
                         </div>
-                        <div id="planning">
+                        <div class="planning">
 
                         </div>
-                        <div id="matriceDeRisque">
+                        <div class="matriceDeRisque">
 
                         </div>
                     </div>

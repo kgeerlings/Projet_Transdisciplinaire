@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
     margin-top: 20px;
     border-radius: 10px;
-    width: 600px;
+    width: 80%;
     color: white;
-    background-color: white;
+    padding: 2vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -18,11 +20,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
     margin-top: 20px;
     border-radius: 10px;
-    width: 600px;
+    width: 80%;
     color: white;
-    background-color: white;
+    padding: 2vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 #attendus{

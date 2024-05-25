@@ -63,7 +63,7 @@ function Developpement({ setPage }) {
               mécaniques de drag and drop d'éléments.
             </p>
           </div>
-          <div class="titre">Video Demonstration</div>
+          <Subtitle nom="Video Demonstration" />
           <iframe
             style={{
               padding: "1vw",

@@ -1,26 +1,27 @@
-#align{
+.align{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
-  height: 60vw;
   text-align: center;
   align-items: center ;
 }
 
-#texte {
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  margin-top: 2rem; /* Utilisation de rem pour la marge */
-  border-radius: 0.625rem; /* 10px converti en rem */
-  width: 90vw; /* Utilisation de pourcentage pour la largeur */
-  max-width: 37.5rem; /* 600px converti en rem */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-  height: 38vw;
+.texte {
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80%;
+    color: white;
+    padding: 2vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-#para1 {
+.para1 {
   margin-left: 1.25rem; /* 20px converti en rem */
   margin-right: 0.625rem; /* 10px converti en rem */
   margin-bottom: 0.625rem; /* 10px converti en rem */
@@ -29,15 +30,15 @@
   padding: 2vw;
 }
 
-#informations {
+.informations {
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#sub {
-  width: 60vw;
+.sub {
+  width: 55vw;
   padding: 0.125rem; /* 2px converti en rem */
   background-color: #033135;
   text-align: left;
@@ -46,6 +47,7 @@
   text-overflow: ellipsis;
   color: #033135;
   margin-right: 0.2rem; /* 5px converti en rem */
+  margin-left: 1.2rem; /* 5px converti en rem */
   overflow: hidden;
   white-space: normal; 
   word-wrap: break-word;
@@ -60,7 +62,7 @@
   margin-bottom: 0;
 }
 
-#liste1 {
+.liste1 {
   margin-left: 1.25rem; /* 20px converti en rem */
   margin-right: 0.625rem; /* 10px converti en rem */
   margin-bottom: 0.625rem; /* 10px converti en rem */
@@ -73,21 +75,13 @@
   background-color:    #d3f9fd;
 }
 
-#dys {
+.dys {
   font-size: 2rem; /* 30px converti en rem */
   color: #033135;
 }
 
-#texte1{
-  height: 23vw;
-  font-style: normal;
-  display: flex;
+.pagePrincipale{
+  justify-content: center;
   flex-direction: column;
-  background-color: white;
-  margin-top: 2rem; /* Utilisation de rem pour la marge */
-  border-radius: 0.625rem; /* 10px converti en rem */
-  width: 90vw; /* Utilisation de pourcentage pour la largeur */
-  max-width: 37.5rem; /* 600px converti en rem */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  display: flex;
 }
-

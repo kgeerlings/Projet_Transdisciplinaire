@@ -1,4 +1,4 @@
-#para2{
+.para2{
     font-style: normal;
     justify-content: center;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 
-#objectifs{
+.edys{
     font-style: normal;
     justify-content: center;
     display: flex;
@@ -29,7 +29,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-#etude{
+.etude{
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -38,4 +38,22 @@
 
 .Etude{
     background-color: #d3f9fd
+}
+
+.images{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resultats, .questionnaire{
+    background-color: white;
+    color:#033135;
+    border-radius: 0.625rem;
+    margin-top: 2vw;
+    text-align: center;
+    margin-right: 2vw;
+    border-color: 2vw solid #033135;
+    border-radius: 10px;
 }
