@@ -13,30 +13,27 @@ function Presentation({ setPage }) {
             <div className="pagePrincipale">
 
                 <div id="informations">
-                    <div id="texte">
-                        <div id="presentation">
-                            <div id="align">
-                                <div id="sub">
-                                    <h4>Qu'est-ce que la </h4><Subtitle nom="" />
-                                </div>
-                                <div id="dys">
-                                    <h3>dyscalculie?</h3>
-                                </div>
+                    <div id="texte1">
+                        <div id="align">
+                            <div id="sub">
+                                <h4>Qu'est-ce que la </h4>
                             </div>
-
+                            <div id="dys">
+                                <h3>dyscalculie?</h3>
+                            </div>
                         </div>
                         <div id="para1">
                             <p>La dyscalculie est une altération de la capacité à comprendre et à utiliser les nombres. Ils affectent “les aspects procéduraux et conceptuels” du calcul et du comptage ainsi que la mémorisation des faits numériques.</p>
                         </div>
 
                     </div>
-                    <div id="texte2">
-                        <div id="para2">
-                            <div id="sub3">
-                                <h4>Quels sont les difficultés majeures </h4><Subtitle nom="" />
+                    <div id="texte">
+                        <div id="align">
+                            <div id="sub">
+                                <h4>Quels sont les difficultés majeures </h4>
                             </div>
                             <div id="dys">
-                                <h3>des enfants dyscalculiques?</h3>
+                                <h4>des enfants dyscalculiques? </h4>
                             </div>
                         </div>
 

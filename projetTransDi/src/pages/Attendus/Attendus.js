@@ -6,12 +6,12 @@ import Subtitle from '../../components/Subtitle/Subtitle';
 import Footer from '../../components/Footer/Footer';
 
 
-function Attendus({ setPage }) {
+function Attendus() {
     return (
         <div className="Attendus">
-            <Navbar setPage={setPage} />
+            <Navbar />
             <div id="attendus">
-                <div id="para">
+                <div id="paragraphe">
                     <Subtitle nom="Attendus de la cliente" />
                     <p>Lors du premier rendez-vous avec la cliente, on lui a demandé particulièrement de nous présenter le projet et le jeu en lui-même. Ensuite, on lui a poser la question des choses qu'elle aimerait implémenter ou améliorer. Ce que l'on a conclut suite à cette première réunion sont les points suivantes:</p>
                     <ul>
