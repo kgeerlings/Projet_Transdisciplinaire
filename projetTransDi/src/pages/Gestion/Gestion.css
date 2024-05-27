@@ -1,89 +1,99 @@
-.Gestion{
-    background: #d3f9fd;
+.Gestion {
+  background: #d3f9fd;
 }
 
-.zoom{
-    background-image: url(../../../public/Zoom-Logo.png);
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+.zoom {
+  background-image: url(../../../public/Zoom-Logo.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
-.whatsapp{
-    background-image: url(../../../public/png-clipart-green-call-icon-whatsapp-logo-whatsapp-text-trademark.png);
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.appli{
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
+.whatsapp {
+  background-image: url(../../../public/png-clipart-green-call-icon-whatsapp-logo-whatsapp-text-trademark.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
 
-.carre{
-    padding: 10px;
-    border: 3px solid #12e0f3;
-    width: 200px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.appli {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
 
-.kami{
-    background-image: url('../../../public/IMG_3778.png');
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 140px 140px 140px 140px;
- background-position: center;
+.carre {
+  padding: 10px;
+  border: 3px solid #12e0f3;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.greg{
-    background-image: url('../../../public/IMG_20231127_140318.jpg');
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 140px 140px 140px 140px;
- background-position: center;
+.kami {
+  background-image: url("../../../public/IMG_3778.png");
+  background-size: cover;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 140px 140px 140px 140px;
+  background-position: center;
 }
 
-.equipe{
-    background-color:#033135 ;
-    padding: 10px;
-    border-radius: 10px;
-    width: 340px;
-    text-align: center;
+.greg {
+  background-image: url("../../../public/IMG_20231127_140318.jpg");
+  background-size: cover;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 140px 140px 140px 140px;
+  background-position: center;
 }
 
-.photos{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    color: white;
+.equipe {
+  background-color: #033135;
+  padding: 2vw;
+  border-radius: 10px;
+  width: 21vw;
+  height: 15vw;
+  font-size: 1vw;
+
+  text-align: center;
+  color: white;
 }
 
-
-.orga{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.photos {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
-.kami,.greg,.zach{
-    color:white;
+.orga {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.organisation{
-    padding: 10px;
-    background-color: white;
-    border-radius: 15px;
-    color: #033135;
-    margin-top: 20px;
+.kami,
+.greg,
+.zach {
+  color: white;
+}
+
+.organisation {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  color: #033135;
+  margin-top: 20px;
+}
+#titreEquipre {
+  color: white;
+  font-size: 2vw;
+  margin-bottom: 1vw;
 }
