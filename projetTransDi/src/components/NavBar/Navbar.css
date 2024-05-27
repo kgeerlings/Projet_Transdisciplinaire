@@ -1,22 +1,39 @@
-
 .nav {
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #088b97;
-    height: 12vh; /* Utilisation de vh pour la hauteur */
-    width: 100%;
-    margin-bottom: 1rem; /* Utilisation de rem pour la marge */
-    color: white;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #088b97;
+  height: 12vh; /* Utilisation de vh pour la hauteur */
+  width: 100%;
+  margin-bottom: 1rem; /* Utilisation de rem pour la marge */
+  color: white;
 }
 
 .image {
-    background-image: url(../../../public/Screenshot\ 2024-05-14\ at\ 17.21.41.png);
-    background-position: center; /* Simplification */
-    background-repeat: no-repeat;
-    height: 30vh; /* Utilisation de vh pour la hauteur */
-    width: 100%; /* Utilisation de % pour la largeur */
-    padding: 3.75rem; /* 60px converti en rem */
-    background-size: cover;
+  background-image: url(../../../public/Screenshot\ 2024-05-14\ at\ 17.21.41.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  padding-top: 30%; /* This will maintain a 3:1 aspect ratio */
+  background-size: cover;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vw;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Add a semi-transparent white background */
+  padding: 0.5vw; /* Add some space around the text */
+  border-radius: 10px; /* Add rounded corners */
+  color: #088b97;
 }
