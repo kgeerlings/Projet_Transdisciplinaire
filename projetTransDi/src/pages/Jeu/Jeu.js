@@ -23,36 +23,21 @@ function Jeu({ setPage }) {
         </div>
         <div class="Phase">
           <Subtitle nom="Les travaux réalisées en amont" />
-          <h3> La phase d'étude</h3>
+          <h3> Les fonctionnalités</h3>
 
           <div class="Para">
-            <p>Pour la phase d'étude, nous pensions que ce serait intéressant de
-              tester le jeu sur des enfants "normaux" mais aussi sur des enfants
-              atteint de dycaculie. Notre objectif pour la phase d'étude était
-              donc: </p>
+            <p> Quand nous avons pris ce projet en main, de nombreuses fonctionnalités étaient déjà mises en place </p>
             <ul>
-              <li>Tester le jeu sur des enfants de profils divers</li>
-              <li>Mieux comprendre ce qu'est la dyscalculie</li>
-              <li>Avoir une vue globale du fonctionnement du jeu</li>
-            </ul>
-            <br></br>
-            <h3> La phase de développement</h3>
-            <p>
-              {" "}
-              Pour la phase de développement, nous savions d'avance que ce ne
-              serait pas réalisable d'implémenter tout ce que souhaitait la
-              cliente donc nous nous sommes focaliser sur:
-            </p>
-            <ul>
-              <li>L'amélioration de l'interface des professeurs</li>
-              <li>Questionnaire de ressenti de l'enfant</li>
-              <li>Conception de nouveaux jeux</li>
+              <li>Différents niveaux</li>
+              <li>Système de récompense</li>
+              <li>Interface des professeurs</li>
+              <li></li>
             </ul>
           </div>
         </div>
       </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 

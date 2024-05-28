@@ -97,3 +97,15 @@
   font-size: 2vw;
   margin-bottom: 1vw;
 }
+
+.planning, .matriceDeRisque{
+    width: 1vw;
+    height: 1vw;
+    margin-top: 10vw;
+}
+
+.position{
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+}
