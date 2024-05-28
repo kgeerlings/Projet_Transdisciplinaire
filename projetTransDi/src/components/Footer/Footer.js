@@ -14,7 +14,7 @@ function Footer(props) {
                         <p> Zachari Arnaud</p>
                         <p> Promo 2026</p>
                     </div>
-
+                    <img class="titi" src="./IMG_3851.jpeg"></img>
                     <div class="autre">
                         <p> Tuteur: Baptiste Pesquet</p>
                         <p> Cliente: Lidija Mladenovic</p>
