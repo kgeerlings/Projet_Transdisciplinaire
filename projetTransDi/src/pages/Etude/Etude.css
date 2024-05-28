@@ -57,3 +57,17 @@
     border-color: 2vw solid #033135;
     border-radius: 10px;
 }
+
+.exo{
+    width: 25vw;
+    height: 20vw;
+}
+
+.legende{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color:grey;
+    font-style: italic;
+    margin-top: 5vw;
+}

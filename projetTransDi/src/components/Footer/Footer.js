@@ -5,7 +5,7 @@ function Footer(props) {
     return (
         <div class="footer">
             <div class="contact">
-                <div>
+                <div class="annee">
                     <h4> 2023-2024 </h4>
                 </div>
                 <div class="alignement">
@@ -18,7 +18,7 @@ function Footer(props) {
 
                     <div class="autre">
                         <p> Tuteur: Baptiste Pesquet</p>
-                        <p> Cliente: Lidija</p>
+                        <p> Cliente: Lidija Mladenovic</p>
                     </div>
                 </div>
             </div>

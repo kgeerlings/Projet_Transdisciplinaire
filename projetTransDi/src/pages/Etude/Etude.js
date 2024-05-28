@@ -57,6 +57,10 @@ function Etude({ setPage }) {
                         Nous avons donc décidé de d'abord assister à des cours de mathématiques en 4e/5e et 3e pour voir comment les enseignants s'adaptent aux enfants dyscalculiques et comment ils leur expliquent les choses. Beaucoup d'illustrations ont été utilisées, et la calculatrice était autorisée.
                         Cette observation nous a permis de vraiment comprendre la dyscalculie et les difficultés qui sont liés à cette condition.
                     </p>
+                    <div class="legende">
+                        <img class="exo" src="./IMG_3899 2.jpeg" alt="exercice réalisé par les enfatns lors du cours "></img>
+                        <p>Exercice réalisé lors d'un cours de mathématiques</p>
+                    </div>
                 </div>
             </div>
             <Footer />
