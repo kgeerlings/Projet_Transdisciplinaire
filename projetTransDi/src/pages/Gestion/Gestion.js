@@ -49,9 +49,24 @@ function Gestion({ setPage }) {
                                 </div>
                             </div>
                         </div>
-                        <div class="position">
-                            <div class="planning"><img src="./Screenshot 2024-05-28 at 09.58.27.png"></img></div>
-                            <div class="matriceDeRisque"><img src="./Screenshot 2024-05-28 at 10.00.41.png"></img></div>
+
+                    </div>
+                    <div class="position">
+                        <div id="planning">
+                            <div class="commentaire">
+                                <p>Le planning de notre projet</p> </div>
+                            <img
+                                class="img"
+                                src="./Screenshot 2024-05-28 at 09.58.27.png"
+                            ></img>
+                        </div>
+                        <div id="matriceDeRisque">
+                            <div class="commentaire">
+                                <p>Notre matrice de risques</p></div>
+                            <img
+                                class="img"
+                                src="./Screenshot 2024-05-28 at 10.00.41.png"
+                            ></img>
                         </div>
                     </div>
                 </div>

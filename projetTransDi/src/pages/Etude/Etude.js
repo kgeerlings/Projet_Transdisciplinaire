@@ -39,36 +39,40 @@ function Etude({ setPage }) {
                     </ol>
                 </div>
                 <div class="resultats">
-                    <div class="images">
+                    <div class="graphique">
                         <div class="titreGraphique">
                             <h4>Résultats questions posé suite à l'observation (CM2)</h4>
                         </div>
-                        <div class="im">
-                            <img src="./Compliqué (CM2).png" />
-                        </div>
-                        <div class="im">
-                            <img src="./Comprends ce qu'il faut faire (CM2).png" />
-                        </div>
-                        <div class="im">
-                            <img src="./Appris(CM2).png" />
+                        <div class="images">
+                            <div class="im">
+                                <img src="./Compliqué (CM2).png" />
+                            </div>
+                            <div class="im">
+                                <img src="./Comprends ce qu'il faut faire (CM2).png" />
+                            </div>
+                            <div class="im">
+                                <img src="./Appris(CM2).png" />
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
                 <div class="resultats">
-                    <div class="images">
+                    <div class="graphique">
                         <div class="titreGraphique">
                             <h4>Résultats questions posé suite à l'observation (CM1-CM2)</h4>
                         </div>
-                        <div class="im">
-                            <img src="./Compliqué (CM1_CM2).png" />
-                        </div>
-                        <div class="im">
-                            <img src="./Comprendscequilfautfaire(CM1_CM2).png" />
-                        </div>
-                        <div class="im">
-                            <img src="./Appris(CM1_CM2).png" />
+                        <div class="images">
+                            <div class="im">
+                                <img src="./Compliqué (CM1_CM2).png" />
+                            </div>
+                            <div class="im">
+                                <img src="./Comprendscequilfautfaire(CM1_CM2).png" />
+                            </div>
+                            <div class="im">
+                                <img src="./Appris(CM1_CM2).png" />
+                            </div>
                         </div>
                     </div>
 

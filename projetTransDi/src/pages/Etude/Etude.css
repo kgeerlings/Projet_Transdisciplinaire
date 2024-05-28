@@ -43,15 +43,19 @@
 .images{
     justify-content: space-evenly;
     flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;  
-    width: 80vw;
+    display: flex;  
+    width: 90vw;
+    border-radius: 10px;
+    height: 20vw;
+}
+
+.graphique, .questionnaire{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
     border-radius: 10px;
+    background-color: white;
 }
 
 .resultats, .questionnaire{
-    background-color: white;
     color:#033135;
     border-radius: 0.625rem;
     margin-top: 2vw;
@@ -80,10 +84,5 @@
     border-radius: 10px;
     margin-top: 2vw;
     margin-right: 2vw;
-    width: 30vw;
-    max-width: 50vw;
-}
-
-.titreGraphique{
-font-size: 2vw;
+    width: 25vw;
 }

@@ -27,7 +27,7 @@
 
 .carre {
   padding: 10px;
-  border: 3px solid #12e0f3;
+  border: 3px solid #033135;
   width: 200px;
   text-align: center;
   display: flex;
@@ -66,8 +66,8 @@
   background-color: #033135;
   padding: 2vw;
   border-radius: 10px;
-  width: 21vw;
-  height: 15vw;
+  width: 25vw;
+  height: 18vw;
   font-size: 1vw;
 
   text-align: center;
@@ -94,28 +94,51 @@
   color: white;
 }
 
-.organisation {
+.organisation, .com {
   padding: 10px;
   background-color: white;
   border-radius: 15px;
   color: #033135;
   margin-top: 20px;
-}
-#titreEquipre {
-  color: white;
-  font-size: 2vw;
-  margin-bottom: 1vw;
-}
-
-.planning,
-.matriceDeRisque {
-  width: 1vw;
-  height: 1vw;
-  margin-top: 10vw;
-}
-
-.position {
-  justify-content: space-evenly;
+  display: flex-column; 
+  justify-content: center; 
   flex-direction: column;
   display: flex;
+  align-items: center;
+}
+
+
+.planning, .matriceDeRisque{
+    width: 1vw;
+    height: 1vw;
+    margin-top: 10vw;
+}
+
+.position{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img{
+    width: 65vw;
+    height: auto;
+    padding: 2vw;
+
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.commentaire{
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #033135;
+    color: white;
 }
