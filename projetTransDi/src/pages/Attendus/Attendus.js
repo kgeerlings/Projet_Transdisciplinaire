@@ -40,9 +40,9 @@ function Attendus() {
           <p>
             {" "}
             Pour la phase d'étude, nous pensions que ce serait intéressant de
-            tester le jeu sur des enfants "normaux" mais aussi sur des enfants
-            atteint de dycaculie. Notre objectif pour la phase d'étude était
-            donc:
+            tester le jeu sur des enfants non-dyscalculiques mais aussi sur des
+            enfants atteint de dyscalculie. Notre objectif pour la phase d'étude
+            était donc:
           </p>
           <ul>
             <li>Tester le jeu sur des enfants de profils divers</li>
@@ -58,7 +58,9 @@ function Attendus() {
             cliente donc nous nous sommes focaliser sur:
           </p>
           <ul>
-            <li>L'amélioration de l'interface des professeurs</li>
+            <li>
+              Création d'un éditeur de niveaux (le plus versatile possible)
+            </li>
             <li>Questionnaire de ressenti de l'enfant</li>
             <li>Conception de nouveaux jeux</li>
           </ul>
