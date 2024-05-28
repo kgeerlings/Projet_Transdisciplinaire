@@ -26,18 +26,26 @@ function Jeu({ setPage }) {
           <h3> Les fonctionnalités</h3>
 
           <div class="Para">
-            <p> Quand nous avons pris ce projet en main, de nombreuses fonctionnalités étaient déjà mises en place </p>
+            <p>
+              {" "}
+              Quand nous avons pris ce projet en main, de nombreuses
+              fonctionnalités étaient déjà mises en place{" "}
+            </p>
             <ul>
               <li>Différents niveaux</li>
-              <li>Système de récompense</li>
+              <li>Système de récompense (Système d'amélioration de l'île)</li>
               <li>Interface des professeurs</li>
-              <li></li>
+              <li>Animation d'introduction</li>
+              <li>Interface de connexion</li>
+              <li>Interface de création de compte</li>
+              <li>Fonction de dictées vocales</li>
+              <li>Gestion du joueur</li>
             </ul>
           </div>
         </div>
       </div>
       <Footer />
-    </div >
+    </div>
   );
 }
 
