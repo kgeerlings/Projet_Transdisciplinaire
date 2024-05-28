@@ -41,10 +41,13 @@
 }
 
 .images{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+    width: 80vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 
 .resultats, .questionnaire{
@@ -70,4 +73,17 @@
     color:grey;
     font-style: italic;
     margin-top: 5vw;
+}
+
+.im img {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    width: 30vw;
+    max-width: 50vw;
+}
+
+.titreGraphique{
+font-size: 2vw;
 }
