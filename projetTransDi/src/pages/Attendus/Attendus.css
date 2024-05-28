@@ -1,4 +1,4 @@
-#paragraphe{
+.paragraphe{
     font-style: normal;
     justify-content: center;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 
-#objectifs{
+.objectifs{
     font-style: normal;
     justify-content: center;
     display: flex;
@@ -29,7 +29,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-#attendus{
+.attendus{
     justify-content: center;
     display: flex;
     flex-direction: column;

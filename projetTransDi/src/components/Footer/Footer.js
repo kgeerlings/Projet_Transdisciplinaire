@@ -8,16 +8,19 @@ function Footer(props) {
                 <div>
                     <h4> 2023-2024 </h4>
                 </div>
-                <div class="reseaux">
-                    <p> Gregoire Arrabie-Aures</p>
-                    <p> Kamalakorn Geerlings</p>
-                    <p> Zachari Arnaud</p>
-                    <p> Promo 2026</p>
+                <div class="alignement">
+                    <div class="reseaux">
+                        <p> Gregoire Arrabie-Aures</p>
+                        <p> Kamalakorn Geerlings</p>
+                        <p> Zachari Arnaud</p>
+                        <p> Promo 2026</p>
+                    </div>
+
+                    <div class="autre">
+                        <p> Tuteur: Baptiste Pesquet</p>
+                        <p> Cliente: Lidija</p>
+                    </div>
                 </div>
-            </div>
-            <div class="autre">
-                <p> Tuteur: Baptiste Pesquet</p>
-                <p> Cliente: Lidija</p>
             </div>
         </div>
     );
