@@ -5,7 +5,7 @@ h3, h2, h1, h4{
     font-weight: 600;
 }
 
-p, li, a, button, ul{
+p, li, a, button, ul, .commentaire{
     font-family: 'Open Sans';
     font-weight: 400;
 }

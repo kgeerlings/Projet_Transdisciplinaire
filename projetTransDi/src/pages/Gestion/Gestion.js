@@ -54,7 +54,8 @@ function Gestion({ setPage }) {
                     <div class="position">
                         <div id="planning">
                             <div class="commentaire">
-                                <p>Le planning de notre projet</p> </div>
+                                Le planning de notre projet
+                            </div>
                             <img
                                 class="img"
                                 src="./Screenshot 2024-05-28 at 09.58.27.png"
@@ -62,7 +63,8 @@ function Gestion({ setPage }) {
                         </div>
                         <div id="matriceDeRisque">
                             <div class="commentaire">
-                                <p>Notre matrice de risques</p></div>
+                                Notre matrice de risques
+                            </div>
                             <img
                                 class="img"
                                 src="./Screenshot 2024-05-28 at 10.00.41.png"
