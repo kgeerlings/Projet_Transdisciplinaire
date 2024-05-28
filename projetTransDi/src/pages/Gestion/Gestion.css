@@ -91,6 +91,7 @@
   border-radius: 15px;
   color: #033135;
   margin-top: 20px;
+  display: flex-column;  
 }
 #titreEquipre {
   color: white;
@@ -102,10 +103,23 @@
     width: 1vw;
     height: 1vw;
     margin-top: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .position{
     justify-content: space-evenly;
     flex-direction: column;
     display: flex;
+}
+
+.img{
+    width: 65vw;
+    height: auto;
+    padding: 2vw;
+
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }

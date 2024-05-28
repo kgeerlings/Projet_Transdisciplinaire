@@ -45,7 +45,7 @@
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;    
-    width: 30vw;
+    width: 45vw;
 }
 
 .resultats, .questionnaire{
@@ -63,5 +63,5 @@
     border-radius: 10px;
     margin-top: 2vw;
     margin-right: 2vw;
-    width: 50vw;
+    width: 45vw;
 }
