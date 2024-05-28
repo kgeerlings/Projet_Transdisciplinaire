@@ -44,6 +44,15 @@
   background-position: center;
 }
 
+.zach {
+  background-image: url("../../../public/20230729_175700.jpg");
+  background-size: cover;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 140px 140px 140px 140px;
+  background-position: center;
+}
+
 .greg {
   background-image: url("../../../public/IMG_20231127_140318.jpg");
   background-size: cover;
@@ -98,14 +107,15 @@
   margin-bottom: 1vw;
 }
 
-.planning, .matriceDeRisque{
-    width: 1vw;
-    height: 1vw;
-    margin-top: 10vw;
+.planning,
+.matriceDeRisque {
+  width: 1vw;
+  height: 1vw;
+  margin-top: 10vw;
 }
 
-.position{
-    justify-content: space-evenly;
-    flex-direction: column;
-    display: flex;
+.position {
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
 }
