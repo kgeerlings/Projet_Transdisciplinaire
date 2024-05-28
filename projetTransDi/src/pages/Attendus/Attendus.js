@@ -78,7 +78,7 @@ function Attendus() {
             compter de la rentrée 2009."
           </p>
           <p>
-            Notre site et projet on été dirigés en respectant le Plant Vert,
+            Notre site et projet on été dirigés en respectant le Plan Vert,
             s'applicant sur la mise en avant du respect de l'environnement afin
             de s'inserer dans les 9 défis clés de la Stratégie Nationale du
             Développement Durable.{" "}
