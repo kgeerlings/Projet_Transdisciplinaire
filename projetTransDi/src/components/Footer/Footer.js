@@ -1,16 +1,15 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 function Footer(props) {
-    console.log(props);
     return (
         <div class="footer">
             <div class="contact">
-                <div class="annee">
+                <div>
                     <h4> 2023-2024 </h4>
                 </div>
                 <div class="alignement">
                     <div class="reseaux">
-                        <p> Gregoire Arrabie-Aures</p>
+                        <p> Gregoire Arrabie-Aubiès</p>
                         <p> Kamalakorn Geerlings</p>
                         <p> Zachari Arnaud</p>
                         <p> Promo 2026</p>
